@@ -1,0 +1,1 @@
+A bunch of methods to query and manipulate data from the Wikidata knowledge base (and also Wikipedia).
