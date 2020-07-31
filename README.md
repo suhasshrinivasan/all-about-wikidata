@@ -6,7 +6,7 @@ Welcome to my Wikidata toolkit repository. This project contains a bunch of high
 
 Simply clone the repository to get started.
 
-### Querying for entities in Wikidata using SPARQL
+### Retrieving QIDs of entities in Wikidata using SPARQL
 
 Each entity (called item) in Wikidata has a persistent, unique identifier called a QID. For example, QID of Cristiano Ronaldo is ```Q11571```. Read more about QIDs and in general about data access in Wikidata [here](https://www.wikidata.org/wiki/Wikidata:Data_access#Per-item_access_to_data). Data in RDF knowledge bases are queried using a query language like SPARQL. Explore querying Wikidata by SPARQL using the Wikidata Query Service [here](https://query.wikidata.org/). 
 
