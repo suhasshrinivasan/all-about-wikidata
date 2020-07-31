@@ -1,0 +1,12 @@
+SELECT DISTINCT ?item 
+WHERE 
+{
+  ?item wdt:P106 wd:Q33999; # hasOccupation actor
+        wdt:P27 wd:Q30;  # hasCountryOfCitizenShip  USA  
+        wdt:P569 ?dob;
+        # p:P26 ?dummy.  # hasSpouse reified statement
+  # ?dummy pq:P580  ?someStartTime. # reified statement has some startdate 
+#   FILTER(?dob < "1950-01-01"^^xsd:dateTime).
+    # FILTER(?dob >= "1930-01-01"^^xsd:dateTime && ?dob < "1950-01-01"^^xsd:dateTime).
+    FILTER(?dob > "1970-01-01"^^xsd:dateTime).
+}
